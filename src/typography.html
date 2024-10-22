@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	  <meta charset="UTF-8" />
+	  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./output.css">
+</head>
+
+<!-- 
+
+  - font size, font style, font weight
+  - text align, text decoration, text transform
+  - text overflow, line clamp
+
+-->
+
+<body>
+    <h1 class="text-pink-500 text-2xl">FONT-SIZE</h1>
+
+    <span class="text-xs">Texto pequeno</span> <!-- menor de todos -->
+    <span class="text-sm">Texto pequeno</span> <!-- pequeno mas maior que xs -->
+    <span class="text-base">Texto médio</span> <!-- tamanha padrão que vem nas páginas -->
+    <span class="text-lg">Texto médio</span> <!-- médio mas maior que o anterior -->
+    <span class="text-xl">Texto grande</span> <!-- grande -->
+    <span class="text-2xl">Texto grande</span> <!-- o número antes de xl aumenta ele -->
+    <span class="text-[30px]">Texto gigante</span> <!-- customizado -->
+
+    <h1 class="text-pink-500 text-2xl">FONT-STYLE</h1>
+
+    <span class="italic">Meu texto qualquer</span> <!-- font-style -->
+    <span class="font-light">Meu texto qualquer</span> <!-- font-weigth(light/bold) -->
+    <span class="font-black">Meu texto qualquer</span> <!-- mais forte de todos -->
+
+    <h1 class="text-pink-500 text-2xl">FONT-ALIGN</h1>
+    <!-- <span> não funciona porque é display-inline, para funcionar precisa do display-block -->
+
+    <p class="text-center">Meu texto qualquer</p> <!-- alinha ao centro da página -->
+    <p class="text-justify max-w-40">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut maiores, vitae laudantium dicta impedit iusto corporis minima blanditiis ipsa quos asperiores illum optio, delectus esse quae amet quis laboriosam at!</p> <!-- justifica o texto -->
+    <p class="text-end max-w-40">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut maiores, vitae laudantium dicta impedit iusto corporis minima blanditiis ipsa quos asperiores illum optio, delectus esse quae amet quis laboriosam at!</p> <!-- alinha ao final -->
+    <p class="text-start max-w-40">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut maiores, vitae laudantium dicta impedit iusto corporis minima blanditiis ipsa quos asperiores illum optio, delectus esse quae amet quis laboriosam at!</p> <!-- alinha ao começo -->
+
+    <h1 class="text-pink-500 text-2xl">FONT-DECORATION</h1>
+
+    <p class="text-start max-w-40 underline">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut maiores, vitae laudantium dicta impedit iusto corporis minima blanditiis ipsa quos asperiores illum optio, delectus esse quae amet quis laboriosam at!</p> <!-- passa uma linha abaixo do texto -->
+
+    <p class="text-start max-w-40 overline pt-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut maiores, vitae laudantium dicta impedit iusto corporis minima blanditiis ipsa quos asperiores illum optio, delectus esse quae amet quis laboriosam at!</p> <!-- passa uma linha acima do texto -->
+
+    <p class="text-start max-w-40 line-through">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut maiores, vitae laudantium dicta impedit iusto corporis minima blanditiis ipsa quos asperiores illum optio, delectus esse quae amet quis laboriosam at!</p> <!-- passa uma linha no centro do texto -->
+
+    <h1 class="text-pink-500 text-2xl">FONT-TRANSFORM</h1>
+
+    <p class="text-start max-w-40 uppercase">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut maiores, vitae laudantium dicta impedit iusto corporis minima blanditiis ipsa quos asperiores illum optio, delectus esse quae amet quis laboriosam at!</p> <!-- deixa todo o texto em capslock -->
+
+    <p class="text-start max-w-40 lowercase">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut maiores, vitae laudantium dicta impedit iusto corporis minima blanditiis ipsa quos asperiores illum optio, delectus esse quae amet quis laboriosam at!</p> <!-- deixa todo o texto sem capslock -->
+
+    <p class="text-start max-w-40 capitalize">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut maiores, vitae laudantium dicta impedit iusto corporis minima blanditiis ipsa quos asperiores illum optio, delectus esse quae amet quis laboriosam at!</p> <!-- deixa todas as primeiras letras do texto em capslock -->
+
+    <h1 class="text-pink-500 text-2xl">TEXT-OVERFLOW</h1>
+
+    <p class="text-start max-w-40 truncate">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut maiores, vitae laudantium dicta impedit iusto corporis minima blanditiis ipsa quos asperiores illum optio, delectus esse quae amet quis laboriosam at!</p> <!-- ao ultrapassar o max-width, o texto corta e adiciona ... -->
+
+    <p class="text-start max-w-40 line-clamp-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut maiores, vitae laudantium dicta impedit iusto corporis minima blanditiis ipsa quos asperiores illum optio, delectus esse quae amet quis laboriosam at!</p> <!-- limita a aparecer somente 3 linhas -->
+
+</body>
+</html>

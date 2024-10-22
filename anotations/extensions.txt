@@ -1,0 +1,7 @@
+# DOCUMENTATION TAILWINDCSS:
+- https://tailwindcss.com/
+
+# VISUAL STUDIO CODE CUSTOMIZATION
+1. Material icon theme
+2. Tailwind CSS IntelliSense (tailwindcss.com)
+3. Live Server (caso não seja um projeto react)
